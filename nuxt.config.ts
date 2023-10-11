@@ -1,17 +1,16 @@
-export default {
-  modules: ['@nuxtjs/tailwindcss'],
-  script: [
-    {
-      src: '/vendor/preline/dist/preline.js',
-      body: true,
-      defer: true
-    }
+export default defineNuxtConfig({
+  css: ['~/assets/css/main.css'],
+  modules: [
+      '@nuxt/devtools',
   ],
-  devtools: {
-    enabled: true,
-
-    timeline: {
-      enabled: true,
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
     },
   },
-};
+
+  devtools: {
+    enabled: true,
+  },
+})

@@ -1,17 +1,13 @@
 <template>
   <div>
-    <h2>Home</h2>
-    <p>Home page content goes here.</p>
-    <p>Home page content goes here.</p>
+    <h1>Welcome to the homepage</h1>
+    <h1 class="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+    <AppAlert>
+      This is an auto-imported component
+    </AppAlert>
   </div>
 </template>
-
-<script>
-export default {
-
-}
+<script setup lang="ts">
 </script>
-
-<style scoped>
-
-</style>
