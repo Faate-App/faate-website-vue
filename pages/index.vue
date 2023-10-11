@@ -12,6 +12,8 @@
         acceptLabel: 'Tamer',
         declineLabel: 'Decline'
       }" />
+
+      <Card />
     </div>
   </div>
 </template>
