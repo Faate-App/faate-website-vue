@@ -16,6 +16,12 @@
       <div class="justify-center flex">
         <Card title="Test" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nesciunt nulla neque nostrum eum quae dolore consequuntur earum aspernatur provident doloremque quidem a id maiores quam at repellendus, autem ex."/> 
       </div>
+      <div class="justify-center flex">
+        <CardWImage title="Test"
+                    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nesciunt nulla neque
+                    nostrum eum quae dolore consequuntur earum aspernatur provident doloremque quidem a id maiores quam at
+                    repellendus, autem ex."/>
+      </div>
     </div>
   </div>
 </template>
