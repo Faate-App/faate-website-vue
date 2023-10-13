@@ -12,12 +12,12 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      background: '#0f0e17',
-      accent: '#ff8906',
-      headline: '#fffffe',
-      paragraph: '#a7a9be',
-      secondary: '#f25f4c',
-      tertiary: '#e53170'
+      background: '#f9f9f9', // Light background to keep it fresh and clean
+      accent: '#FF6B6B', // Soft red for a romantic touch
+      headline: '#2C2C2C', // Dark color for text to ensure readability
+      paragraph: '#4B4B4B', // Slightly lighter text color for contrast
+      secondary: '#FFC75F', // Warm secondary color to make CTAs stand out
+      tertiary: '#FF61A6' // A vibrant pink to add a playful, romantic vibe
     }
   },
   plugins: [
