@@ -1,8 +1,8 @@
 export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   modules: [
-      '@nuxt/devtools',
-
+    '@nuxt/devtools',
+    '@nuxtjs/tailwindcss',
   ],
   postcss: {
     plugins: {
