@@ -6,18 +6,24 @@
       <p class="mb-8 text-lg font-normal text-paragraph lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
         Chez Datee nous travaillons à vous offrir une expérience plus fluide que les applications de rencontre
         traditionnelles. Notre solution vous promet un match personnalisé par nos soins par tranche de 2 semaines.</p>
-
-      <iframe data-tally-src="https://tally.so/embed/w2AxlL?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-              loading="lazy" width="100%" height="302" frameborder="0" marginheight="0" marginwidth="0"
-              title="Website waitlist"></iframe>
+      <client-only placeholder="loading...">
+        <iframe data-tally-src="https://tally.so/embed/w2AxlL?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+                loading="lazy" width="100%" height="302" frameborder="0" marginheight="0" marginwidth="0"
+                title="Website waitlist"></iframe>
+      </client-only>
 
     </div>
   </section>
 
 </template>
 <script setup>
+if (typeof document !== 'undefined') {
+  var d=document, w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}
 
-var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}
+
+  // Manipulating the DOM here
+}
+
 
 
 
