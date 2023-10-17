@@ -1,6 +1,6 @@
 <template>
-  <section class="bg-background h-auto" id="hero">
-    <div class="py-8 px-4 mx-auto lg:max-w-screen-xl text-center lg:py-16 lg:px-12">
+  <section class="bg-background h-auto mt-20" id="hero">
+    <div class="py-8 px-4 mx-auto lg:max-w-screen-xl text-center lg:py-16 lg:px-12 ">
       <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-headline md:text-5xl lg:text-6xl dark:text-white">We believe in a brighter dating future</h1>
       <p class="mb-8 text-lg font-normal text-paragraph lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Chez Datee nous travaillons à vous offrir une expérience plus fluide que les applications de rencontre traditionnelles. Notre solution vous promet un match personnalisé par nos soins par tranche de 2 semaines.</p>
       <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
