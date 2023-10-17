@@ -8,6 +8,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/core": "^2.17.1",
     "@nuxt/devtools": "^1.0.0-beta.1",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "autoprefixer": "^10.4.16",
