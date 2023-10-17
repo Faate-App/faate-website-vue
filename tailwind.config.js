@@ -14,6 +14,7 @@ module.exports = {
       current: 'currentColor',
       background: '#f9f9f9', // Light background to keep it fresh and clean
       accent: '#FF6B6B', // Soft red for a romantic touch
+      accentHover: '#C15054', // Soft red for a romantic touch
       headline: '#2C2C2C', // Dark color for text to ensure readability
       paragraph: '#4B4B4B', // Slightly lighter text color for contrast
       secondary: '#FFC75F', // Warm secondary color to make CTAs stand out
