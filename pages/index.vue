@@ -3,7 +3,7 @@
     <div class="py-8 px-4 mx-auto lg:max-w-screen-xl text-center lg:py-16 lg:px-12">
       <WhatsNew message="Rejoignez notre waitlist" reference="https://tally.so#tally-open=w2AxlL&tally-layout=modal&tally-width=372&tally-hide-title=1&tally-auto-close=10000" />
       <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-headline md:text-5xl lg:text-6xl dark:text-white">We believe in a brighter dating future</h1>
-      <p class="mb-8 text-lg font-normal text-paragraph lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Chez Datee nous travaillons à vous offrir une expérience plus fluide que les applications de rencontre traditionnelles. Notre solution vous promet un match personnalisé par nos soins par tranche de 2 semaines.</p>
+      <p class="mb-8 text-lg font-normal text-paragraph lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Chez Faate nous travaillons à vous offrir une expérience plus fluide que les applications de rencontre traditionnelles. Notre solution vous promet un match personnalisé par nos soins par tranche de 2 semaines.</p>
       <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
         <Button reference="#learn-more">
           En savoir plus
@@ -22,14 +22,14 @@
   <section class="py-20 bg-darkBackground h-auto" id="learn-more">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
       <div class="bg-darkBlock border border-gray-700 rounded-lg p-8 md:p-12 mb-8">
-        <a href="#" class="text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md bg-gray-700 text-secondary mb-2">
+        <div class="text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md bg-gray-700 text-secondary mb-2">
           <svg class="w-2.5 h-2.5 mr-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm3.982 13.982a1 1 0 0 1-1.414 0l-3.274-3.274A1.012 1.012 0 0 1 9 10V6a1 1 0 0 1 2 0v3.586l2.982 2.982a1 1 0 0 1 0 1.414Z"/>
           </svg>
-          Comming soon in december
-        </a>
+          Comming soon in november
+        </div>
         <h1 class="text-white text-3xl md:text-5xl font-extrabold mb-2">Votre voyage amoureux commence ici</h1>
-        <p class="text-lg font-normal text-gray-400 mb-6">Inscrivez-vous sur notre liste d'attente et soyez parmi les premiers à vivre l'expérience Datee. Un questionnaire détaillé vous sera envoyé par mail, prévu pour décembre, pour comprendre vos préférences et vous proposer des matches de qualité. Ne manquez pas l'occasion de rencontrer des personnes extraordinaires.</p>
+        <p class="text-lg font-normal text-gray-400 mb-6">Inscrivez-vous sur notre liste d'attente et soyez parmi les premiers à vivre l'expérience Faate. Un questionnaire détaillé vous sera envoyé par mail et sera mis en ligne sur notre site, prévu pour novembre, pour comprendre vos préférences et vous proposer des matches de qualité. Ne manquez pas l'occasion de rencontrer des personnes extraordinaires.</p>
         <Button reference="https://tally.so#tally-open=w2AxlL&tally-layout=modal&tally-width=372&tally-hide-title=1&tally-auto-close=10000">
           Rejoignez la liste d'attente
           <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -39,23 +39,23 @@
       </div>
       <div class="grid md:grid-cols-2 gap-8">
         <div class="bg-darkBlock border border-gray-700 rounded-lg p-8 md:p-12">
-          <a href="#" class="text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md bg-gray-700 text-tertiary mb-2">
+          <div class="text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md bg-gray-700 text-tertiary mb-2">
             <svg class="w-2.5 h-2.5 mr-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
               <path d="M17.947 2.053a5.209 5.209 0 0 0-3.793-1.53A6.414 6.414 0 0 0 10 2.311 6.482 6.482 0 0 0 5.824.5a5.2 5.2 0 0 0-3.8 1.521c-1.915 1.916-2.315 5.392.625 8.333l7 7a.5.5 0 0 0 .708 0l7-7a6.6 6.6 0 0 0 2.123-4.508 5.179 5.179 0 0 0-1.533-3.793Z"/>
             </svg>
             Machmaker
-          </a>
+          </div>
           <h2 class="text-white text-3xl font-extrabold mb-2">Un match à la hauteur de vos attentes</h2>
           <p class="text-lg font-normal text-gray-400 mb-4">Dès que nous avons vos réponses, la magie opère. Nous vous proposons un match avec toutes les informations nécessaires pour prendre contact. C'est le début d'une nouvelle aventure, peut-être celle de toute une vie.</p>
         </div>
         <div class="bg-darkBlock border border-gray-700 rounded-lg p-8 md:p-12">
-          <a href="#" class="text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md bg-gray-700 text-green-400 mb-2">
+          <div class="text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md bg-gray-700 text-green-400 mb-2">
             <svg class="w-2.5 h-2.5 mr-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 18" fill="currentColor">
               <path d="M18 4H16V9C16 10.0609 15.5786 11.0783 14.8284 11.8284C14.0783 12.5786 13.0609 13 12 13H9L6.846 14.615C7.17993 14.8628 7.58418 14.9977 8 15H11.667L15.4 17.8C15.5731 17.9298 15.7836 18 16 18C16.2652 18 16.5196 17.8946 16.7071 17.7071C16.8946 17.5196 17 17.2652 17 17V15H18C18.5304 15 19.0391 14.7893 19.4142 14.4142C19.7893 14.0391 20 13.5304 20 13V6C20 5.46957 19.7893 4.96086 19.4142 4.58579C19.0391 4.21071 18.5304 4 18 4Z" fill="currentColor"/>
               <path d="M12 0H2C1.46957 0 0.960859 0.210714 0.585786 0.585786C0.210714 0.960859 0 1.46957 0 2V9C0 9.53043 0.210714 10.0391 0.585786 10.4142C0.960859 10.7893 1.46957 11 2 11H3V13C3 13.1857 3.05171 13.3678 3.14935 13.5257C3.24698 13.6837 3.38668 13.8114 3.55279 13.8944C3.71889 13.9775 3.90484 14.0126 4.08981 13.996C4.27477 13.9793 4.45143 13.9114 4.6 13.8L8.333 11H12C12.5304 11 13.0391 10.7893 13.4142 10.4142C13.7893 10.0391 14 9.53043 14 9V2C14 1.46957 13.7893 0.960859 13.4142 0.585786C13.0391 0.210714 12.5304 0 12 0Z" fill="currentColor"/>
             </svg>
             Feedback
-          </a>
+          </div>
           <h2 class="text-white text-3xl font-extrabold mb-2">Votre feedback forge notre excellence</h2>
           <p class="text-lg font-normal text-gray-400 mb-4">Chaque étape de votre aventure nous importe. Partagez vos retours après chaque rencontre. Votre satisfaction est notre priorité et votre feedback nous permet d'ajuster nos propositions pour mieux répondre à vos attentes lors du prochain match.</p>
         </div>
