@@ -63,7 +63,6 @@
     </div>
   </section>
 
-  <Team/>
 
 </template>
 
