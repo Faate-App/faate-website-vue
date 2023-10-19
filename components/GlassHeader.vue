@@ -1,7 +1,8 @@
 <!-- components/GlassHeader.vue -->
 <template>
   <section class="justify-center flex items-center">
-  <nav class="glass-header fixed w-4/5 z-20 top-3">
+  <nav :class="{'w-4/5 top-3': changeHead, 'w-full top-0': !changeHead}"
+      class="glass-header fixed z-20 ">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <div class="flex items-center">
         <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo">
@@ -25,9 +26,20 @@
   </section>
 </template>
 
-<script>
-export default {
-  name: 'GlassHeader',
+<script setup>
+
+import { ref, onMounted } from 'vue';
+const changeHead = ref(false);
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll);
+});
+
+function handleScroll() {
+  // Update `changeBackground` based on scroll position
+  if(typeof window !== "undefined"){
+    changeHead.value = window.scrollY > 0;  // For example, change background at 100px scroll
+  }
 }
 </script>
 
