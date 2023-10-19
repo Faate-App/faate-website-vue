@@ -23,9 +23,21 @@ module.exports = {
       darkHeadline: '#E0E0E0',  // Light color for text on dark background
       darkParagraph: '#B0B0B0',  // Lighter text color for contrast
       darkBlock: '#2E2E3D',
-    }
+    },
+    extend: {
+      backdropFilter: {
+        'none': 'none',
+        'blur': 'blur(20px)',
+      },
+    },
+  },
+  variants: {
+    extend: {
+      backdropFilter: ['responsive'],
+    },
   },
   plugins: [
     require('flowbite/plugin')
   ],
+
 }

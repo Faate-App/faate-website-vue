@@ -1,0 +1,41 @@
+<!-- components/GlassHeader.vue -->
+<template>
+
+  <nav class="glass-header fixed w-full z-20 top-0 left-0 ">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div class="flex items-center">
+        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo">
+        <span class="self-center text-2xl font-semibold whitespace-nowrap">Faate</span>
+      </div>
+      <!--
+      <WhatsNew message="Rejoignez notre waitlist" reference="https://tally.so#tally-open=w2AxlL&tally-layout=modal&tally-width=372&tally-hide-title=1&tally-auto-close=10000" />
+      -->
+      <div class="items-right justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="/" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:p-0 md:dark:text-blue-500 hover:underline" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="/about" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:p-0 md:dark:text-blue-500 hover:underline">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</template>
+
+<script>
+export default {
+  name: 'GlassHeader',
+}
+</script>
+
+<style scoped>
+.glass-header {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+  border-radius: 10px;
+  /* Optional: Add additional styling or Tailwind classes */
+}
+</style>

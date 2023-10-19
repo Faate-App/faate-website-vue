@@ -29,7 +29,7 @@
         </a>
         <h1 class="text-white text-3xl md:text-5xl font-extrabold mb-2">Votre voyage amoureux commence ici</h1>
         <p class="text-lg font-normal text-gray-400 mb-6">Inscrivez-vous sur notre liste d'attente et soyez parmi les premiers à vivre l'expérience Datee. Un questionnaire détaillé vous sera envoyé par mail, prévu pour décembre, pour comprendre vos préférences et vous proposer des matches de qualité. Ne manquez pas l'occasion de rencontrer des personnes extraordinaires.</p>
-        <Button reference="https://tally.so#tally-open=w2AxlL&tally-layout=modal&tally-width=372&tally-hide-title=1&tally-auto-close=10000">
+        <Button reference="#https://tally.so#tally-open=w2AxlL&tally-layout=modal&tally-width=372&tally-hide-title=1&tally-auto-close=10000">
           Rejoignez la liste d'attente
           <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
