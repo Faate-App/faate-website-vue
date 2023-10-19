@@ -34,8 +34,10 @@ export default {
 <style scoped>
 .glass-header {
   background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(5px);
-  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   /* Optional: Add additional styling or Tailwind classes */
 }
 </style>
