@@ -1,7 +1,7 @@
 <!-- components/GlassHeader.vue -->
 <template>
-
-  <nav class="glass-header fixed w-full z-20 top-0 left-0 ">
+  <section class="justify-center flex items-center">
+  <nav class="glass-header fixed w-3/4 z-20 top-5">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <div class="flex items-center">
         <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo">
@@ -22,6 +22,7 @@
       </div>
     </div>
   </nav>
+  </section>
 </template>
 
 <script>
@@ -34,7 +35,6 @@ export default {
 .glass-header {
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
-  padding: 1rem;
   border-radius: 10px;
   /* Optional: Add additional styling or Tailwind classes */
 }
