@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="md:bg-darkBackground h-full w_full">
     <TheHeader />
     <slot />
     <TheFooter />
