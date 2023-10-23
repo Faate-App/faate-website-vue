@@ -1,7 +1,7 @@
 <!-- components/GlassHeader.vue -->
 <template>
   <section class="justify-center flex items-center">
-    <nav class="fixed top-0 left-0 right-0 z-50 p-2 backdrop-blur-md bg-opacity-10 transition-transform transform-gpu"
+    <nav class="fixed top-4 left-0 right-0 z-50 backdrop-blur-md bg-opacity-10 transition-transform transform-gpu"
          :class="changeHead ? 'translate-y-0 floating w-4/5 top-3 left-auto right-auto' : 'translate-y-[-10%]'">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div class="flex items-center">
@@ -52,19 +52,11 @@ function handleScroll() {
   backdrop-filter: blur(10px);
 }
 .floating {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(4px);
   border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
 
-}
-.glass-header {
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(4px);
-  border-radius: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  /* Optional: Add additional styling or Tailwind classes */
-}
 </style>
